@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46840af4-1615-46d9-a6a6-87b95ffe22dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-    </list>
+    <list default="true" id="46840af4-1615-46d9-a6a6-87b95ffe22dd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1591193459173" duration="5643000" />
       <workItem from="1592657670967" duration="9757000" />
       <workItem from="1593170347096" duration="8299000" />
-      <workItem from="1593254817654" duration="2159000" />
+      <workItem from="1593254817654" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="提交Mystudy文件库的内容，该库为平时学习中所编写的一些小代码">
       <created>1593174340848</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593185109784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="补充MethodInvokeBeforeMain类的注释说明">
+      <created>1593260129929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593260129929</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
