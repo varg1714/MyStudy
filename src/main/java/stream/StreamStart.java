@@ -11,7 +11,7 @@ public class StreamStart {
     Integer[] nums = new Integer[]{1, 2, 3, 4, 5};
 
     public void foreachUse() {
-        Arrays.asList(1, 2, 3, 4, 5, 6).stream().forEach(i -> {
+        Arrays.stream(nums).forEach(i -> {
             if (i == 2) {
                 return;
             }
