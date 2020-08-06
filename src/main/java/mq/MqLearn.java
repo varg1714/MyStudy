@@ -7,5 +7,6 @@ package mq;
 public class MqLearn {
     public static void main(String[] args) {
         System.out.println("这是一个rabbit类");
+        System.out.println("在master写了这句话");
     }
 }
