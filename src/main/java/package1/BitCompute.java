@@ -1,5 +1,8 @@
 package package1;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author varg
  * @date 2020/6/3 22:13
@@ -22,6 +25,7 @@ public class BitCompute{
 
     public static void main(String[] args) {
          System.out.println(BitCompute.orCompute(11));
+         Map<Object,Object> map = new HashMap<>();
     }
 
 }
