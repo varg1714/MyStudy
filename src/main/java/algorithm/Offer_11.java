@@ -11,8 +11,8 @@ public class Offer_11 {
         int end = numbers.length - 1;
 
         int middle = (begin + end) / 2;
-        while (!(numbers[middle] > numbers))
-
+        /*while (!(numbers[middle] > numbers))*/
+        return 0;
     }
 
 }
