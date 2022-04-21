@@ -1,4 +1,4 @@
-package function_program;
+package functionprogram;
 
 import java.util.function.BiPredicate;
 import java.util.function.Supplier;

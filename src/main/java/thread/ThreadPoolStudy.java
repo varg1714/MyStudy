@@ -19,12 +19,7 @@ public class ThreadPoolStudy implements Runnable {
 
         ThreadPoolExecutor executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors(),
                 5, 3L, TimeUnit.SECONDS,
-                new LinkedBlockingDeque<>(5), new ThreadFactory() {
-            @Override
-            public Thread newThread(Runnable r) {
-                return new Thread(r);
-            }
-        });
+                new LinkedBlockingDeque<>(5), r -> new Thread(r));
 
         // 启动两个线程竞争ThreadFactory.class的锁
         executor.execute(new ThreadPoolStudy());
@@ -79,7 +74,7 @@ public class ThreadPoolStudy implements Runnable {
         System.out.println("--获取到锁，实例方法开始执行--");
     }
 
-    public synchronized static void clockSynchronizedMethod() {
+    public static synchronized void clockSynchronizedMethod() {
         System.out.println("--获取到锁，静态方法开始执行--");
     }
 

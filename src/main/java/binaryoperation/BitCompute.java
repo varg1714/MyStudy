@@ -1,4 +1,4 @@
-package binary_operation;
+package binaryoperation;
 
 import java.util.HashMap;
 import java.util.Map;

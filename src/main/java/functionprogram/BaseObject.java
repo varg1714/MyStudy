@@ -1,4 +1,4 @@
-package function_program;
+package functionprogram;
 
 import lombok.Data;
 

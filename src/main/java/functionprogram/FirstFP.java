@@ -1,4 +1,4 @@
-package function_program;
+package functionprogram;
 
 /**
  * @author varg
